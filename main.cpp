@@ -77,7 +77,6 @@ glm::mat4 gen_ViewingMatrix(float r[3][3], float c[3])
     return viewing_Matrix;
 }
 
-// 默认1个像素的长度是1个单位长度
 glm::mat4 gen_Perspective(float k[3][3], float n, float f)
 {
     assert(k[0][0] == k[1][1]);
